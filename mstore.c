@@ -1,6 +1,10 @@
-long mult2(long, long);
+#include <stdio.h>
 
-void multstore(long x, long y, long *dest) {
-    long t = mult2(x, y);
-    *dest = t;
+void what_is_size_of_long() {
+    printf("Size of long: %d\n", sizeof(long));
+    printf("Size of int: %d\n", sizeof(int));
+}
+
+int main() {
+    what_is_size_of_long();
 }
