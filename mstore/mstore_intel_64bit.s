@@ -1,7 +1,7 @@
 	.section	__TEXT,__text,regular,pure_instructions
 	.build_version macos, 14, 0	sdk_version 14, 4
 	.intel_syntax noprefix
-	.globl	_multstore                      ## -- Begin function multstore
+	.globl	_multstore                  ## -- Begin function multstore
 	.p2align	4, 0x90
 _multstore:                             ## @multstore
 	.cfi_startproc
